@@ -1,0 +1,209 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [1.10.1] - 2024-10-18
+
+### Changed
+
+- Fixed some typos & adapted code for some specific/internal use cases
+
+## [1.10.0] - 2024-10-16
+
+### Changed
+
+- Added FR translations
+- Updated interface for easier use
+
+## [1.9.0] - 2024-09-10
+
+### Changed
+
+- Reindented some files.
+- Better handling of specific errors when executing commands without being admin.
+- Made code compatible for php 8 (partially tested).
+- Fetching any posts from API including future ones.
+- Now setting private api key on crowdaa API automatically when logging in.
+
+## [1.9.1] - 2024-09-12
+
+### Changed
+
+- Made a private fonction public for later use outside of its class.
+
+## [1.8.2] - 2024-01-29
+
+### Changed
+
+- Now displaying article event start & end dates.
+
+## [1.8.1] - 2024-01-29
+
+### Changed
+
+- Fixed an invalid text added to all articles contents...
+
+## [1.8.0] - 2024-01-29
+
+### Changed
+
+- Several fixes concerning badges sync
+- JWT auth token : increased sync duration to 1 year
+- Added more logs on errors
+- Added event categories & article event fields sync
+
+## [1.7.1] - 2022-12-05
+
+### Changed
+
+- Fixed badges checking on API categories (requiring at least one badge instead of all)
+
+## [1.7.0] - 2022-11-29
+
+### Added
+
+- Support for multi-categories synchronization
+
+### Changed
+
+- Fixed issues/typos in medias synchronizations
+- Fixed a typo when creating a checksum of a category
+
+## [1.6.3] - 2022-11-15
+
+### Changed
+
+- Fixed the user/permissions synchronization (crash in the wp>crowdaa direction), for pmpro plugin
+
+## [1.6.2] - 2022-11-15
+
+### Changed
+
+- Fixed the user/permissions synchronization (complete crashes in both direction), for swpm plugin
+
+## [1.6.1] - 2022-10-27
+
+### Added
+
+- Badges synchronization and ownership
+
+### Changed
+
+- Fixed an issue in WP>API category picture synchronization
+- Fixed an issue when a category/badge update is required in one direction and a delete in the other direction at the same time
+
+## [1.5.0] - 2022-09-01
+
+### Changed
+
+- Checking plugin API key on API calls to avoid unwanted information leaks
+
+## [1.4.1] - 2022-09-01
+
+### Added
+
+- Plugin API key (not currently used, preparing it for 1.5.0)
+
+## [1.4.0] - 2022-08-29
+
+### Added
+
+- Badges synchronization using Simple Membership plugin
+
+### Changed
+
+- Minor bug fixes
+- Added logs when changing other plugin settings
+
+## [1.3.0] - 2022-07-27
+
+### Added
+
+- Synchronization of category images, using the `custom-category-image` plugin
+- Added a `fullscreen` option on an article to display an article as fullscreen on the app
+
+### Changed
+
+- Fixed a feedPicture synchronization issue from API to WP
+- Fixed an execution timeout issue (was not stopping before the php execution timeout, as it should)
+
+## [1.2.4] - 2022-07-15
+
+### Added
+
+- Reset of the sync timestamp for the API > WP sync when needed
+
+## [1.2.3] - 2022-07-15
+
+### Changed
+
+- When there is a single image/video on the API, it is used as an article thumbnail
+
+### Removed
+
+- Useless warning message when saving an article without picture
+
+## [1.2.2] - 2022-07-13
+
+### Changed
+
+- Synchronization crash when updating articles from the API to WP
+
+## [1.2.1] - 2022-06-14
+
+### Changed
+
+- The plugin description
+- API to WP articles sync issue (was not setting a category for articles)
+
+## [1.2.0] - 2022-06-14
+
+### Added
+
+- Permissions/badges synchronization
+- Synchronization database reset
+
+### Changed
+
+- Separated categories synchronization from post synchronization
+
+## [1.1.0] - 2022-05-11
+
+### Added
+
+- Some more internal actions & filters
+- Blacklist & whitelist mode by categories
+- A bit more logs & debug
+- Media captions synchronization
+- Post author name synchronization per post instead of a global shared name
+- Notifications sending when publishing an article
+- Automatic generation of auto-login tokens on JWT login token generation when both "Autologin Links" and "JWT Authentication for WP-API" are installed
+
+### Removed
+
+- Several fields when synchronizing a category, to keep previous values from the API
+
+### Changed
+
+- Minor code improvements (indentation)
+- Some WP actions & filters names (to be more explicit)
+
+## [1.0.42] - 2020-09-06
+
+### Added
+
+- The base plugin, which does :
+- Login to Crowdaa API
+- Synchronization between Wordpress and Crowdaa API
+- Controls to disable automatic synchronization or one side of it
+- Controls to set a synchronization timeout value
+- Controls to create and set the post type to synchronize
+- Controls to set the default article picture
+- Control to get the pending synchronization queue
+- Control to get the last plugin logs
+- Control to run the synchronization manually

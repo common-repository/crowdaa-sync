@@ -1,0 +1,10 @@
+.crowdaa_gallery {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.screen-thumb {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 9px;
+}

@@ -1,0 +1,704 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WpCrowdaaSyncTranslations\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-15 17:46+0400\n"
+"PO-Revision-Date: 2024-10-15 17:47+0400\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_attr_e\n"
+"X-Loco-Version: 2.6.11; wp-5.9.10\n"
+"X-Poedit-SearchPath-0: admin\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: public\n"
+"X-Poedit-SearchPath-3: crowdaa-sync.php\n"
+"X-Poedit-SearchPath-4: index.php\n"
+"X-Poedit-SearchPath-5: uninstall.php\n"
+
+#: admin/class-crowdaa-sync-add-info-api.php:217
+#: admin/class-crowdaa-sync-add-info-api.php:630
+msgid "User is not connected"
+msgstr "Utilisateur non connecté"
+
+#: admin/class-crowdaa-sync-add-info-api.php:245
+#: admin/class-crowdaa-sync-add-info-api.php:372
+#: admin/class-crowdaa-sync-add-info-api.php:660
+msgid "API query error : "
+msgstr "Erreur de requête d'API :"
+
+#: admin/class-crowdaa-sync-add-info-api.php:827
+msgid "The synchronization cannot be done, missing dependencies : "
+msgstr "La synchronisation ne peut se faire, dépendances manquantes :"
+
+#: admin/class-crowdaa-sync-add-info-api.php:832
+msgid "Cannot run : a synchronization is already running"
+msgstr "Une synchronisation est déjà en cours, merci de réessayer plus tard"
+
+#: admin/class-crowdaa-sync-add-info-api.php:966
+msgid "Some errors happened during synchronization : "
+msgstr "Des erreurs ont eu lieu pendant la synchronisation :"
+
+#: admin/class-crowdaa-sync-add-info-api.php:969
+msgid "All data synced successfully"
+msgstr "Données synchronisées avec succès"
+
+#: admin/class-crowdaa-sync-add-info-api.php:974
+msgid ""
+"The synchronization process timed out, please retry it until it succeeds."
+msgstr ""
+"La synchronisation a atteint sa durée maximale d'exécution, merci de la "
+"relancer jusqu'à ce que qu'elle se termine entièrement."
+
+#: admin/class-crowdaa-sync-add-info-api.php:976
+msgid "Uncaught Post synchronization error : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-add-info-api.php:978
+msgid "Category synchronization error : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-add-info-api.php:980
+msgid "Badge synchronization error : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-add-info-api.php:982
+msgid "Fatal synchronization error : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-add-info-api.php:984
+msgid "Unknown synchronzation error : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-add-info-wp.php:490
+msgid "Errors when downloading term image for "
+msgstr ""
+
+#: admin/class-crowdaa-sync-add-info-wp.php:502
+msgid "Set WP term feed picture error : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-add-info-wp.php:869
+msgid ""
+"You don't have ffmpeg installed on your server to download videos, please "
+"install it or contact your hosting provider"
+msgstr ""
+"Vous n'avez pas ffmpeg installé sur votre serveur pour permettre le "
+"téléchargement de vidéos, merci de l'installer ou de contacter votre "
+"hébergeur"
+
+#: admin/class-crowdaa-sync-admin-display.php:197
+#: admin/class-crowdaa-sync-admin-display.php:208
+msgid "Failed to get data. Please try again later"
+msgstr "Communication réseau impossible, merci de réessayer ultérieurement"
+
+#: admin/class-crowdaa-sync-admin-display.php:219
+msgid "Data is incorrect please double-check and try again"
+msgstr "Les données sont incorrectes, merci de vérifier les paramètres fournis"
+
+#: admin/class-crowdaa-sync-admin-display.php:247
+msgid "Failed to complete login initialization process"
+msgstr "Échec d'initialisation du plugin, merci de réessayer"
+
+#: admin/class-crowdaa-sync-admin-display.php:254
+msgid "You are successfully logged in"
+msgstr "Vous êtes connecté!"
+
+#: admin/class-crowdaa-sync-admin-display.php:265
+msgid "Please, provide all user data"
+msgstr "Merci de remplir tous les champs demandés"
+
+#: admin/class-crowdaa-sync-api.php:184 admin/class-crowdaa-sync-api.php:336
+#: admin/class-crowdaa-sync-api.php:398 admin/class-crowdaa-sync-api.php:466
+msgid "Not connected to the API"
+msgstr "Non connecté"
+
+#: admin/class-crowdaa-sync-api.php:195 admin/class-crowdaa-sync-api.php:478
+msgid "Cannot sync article without any image or video!"
+msgstr "Impossible de synchroniser un article sans image ou vidéo!"
+
+#: admin/class-crowdaa-sync-api.php:206 admin/class-crowdaa-sync-api.php:489
+msgid "Without title"
+msgstr "Sans titre"
+
+#: admin/class-crowdaa-sync-api.php:213 admin/class-crowdaa-sync-api.php:495
+msgid "Without content"
+msgstr "Sans contenu"
+
+#: admin/class-crowdaa-sync-api.php:249
+msgid "Post update error, query response : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:253
+msgid "Post update error, API response : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:270 admin/class-crowdaa-sync-api.php:441
+msgid "Post publish error : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:340
+msgid "Unable to create article without Category"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:344 admin/class-crowdaa-sync-api.php:406
+msgid "Cannot sync article without any image and video!"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:348 admin/class-crowdaa-sync-api.php:410
+msgid "Cannot sync article without any title or content!"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:362
+#, php-format
+msgid "Custom article creation error, query response : %s"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:365
+#, php-format
+msgid "Custom article creation error, response : %s"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:368
+#, php-format
+msgid "Custom article creation error, API response : %s"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:379 admin/class-crowdaa-sync-api.php:557
+msgid "Post first publish error : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:402
+msgid "Unable to update article without Category"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:424
+#, php-format
+msgid "Custom article update error, query response : %s"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:427
+#, php-format
+msgid "Custom article update error, response : %s"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:430
+#, php-format
+msgid "Custom article update error, API response : %s"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:461
+msgid "Unable to sync article without Category or Media in Gallery"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:533
+#, php-format
+msgid "Post creation error for wp post %d, query response : %s"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:536
+#, php-format
+msgid "Post creation error for wp post %d, response : %s"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:540
+#, php-format
+msgid "Post creation error for wp post %d, API response : %s"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:587
+msgid "Default article image not set"
+msgstr "L'image par défaut n'est pas définie"
+
+#: admin/class-crowdaa-sync-api.php:607
+msgid "Missing featured image on post, skipping"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:611 admin/class-crowdaa-sync-api.php:672
+msgid "Image synchronization error : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:667
+msgid "Missing gallery image/video on post, skipping"
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:697
+msgid "No picture could be synchronized for post "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:743
+msgid "Not logged in"
+msgstr "Non connecté"
+
+#: admin/class-crowdaa-sync-api.php:908
+msgid "Query error during badge creation : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:912
+msgid "API error during badge creation : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:942
+msgid "Query error during badge update : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:946
+msgid "API error during badge update : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:966
+msgid "Query error during badge delete : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:970
+msgid "API error during badge delete : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:1000
+msgid "Errors when uploading category image for "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:1061
+msgid "Query error during category creation : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:1065
+msgid "API error during category creation : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:1119
+msgid "Query error during category update : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:1123
+msgid "API error during category update : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:1158
+msgid "Query error during category delete : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-api.php:1162
+msgid "API error during category delete : "
+msgstr ""
+
+#: admin/class-crowdaa-sync-meta-box.php:95
+msgid ""
+"Set Images or Videos for the Gallery. Hold Ctrl to select multiple items. "
+"Shortcode - [display_gallery]"
+msgstr ""
+
+#: admin/class-crowdaa-sync-meta-box.php:136
+msgid "Edit Gallery"
+msgstr "Éditer la galerie"
+
+#: admin/class-crowdaa-sync-meta-box.php:137
+msgid "Clear"
+msgstr "Effacer"
+
+#: admin/class-crowdaa-sync-meta-box.php:163
+msgid ""
+"Set the event start and end dates below. These dates will only be used if "
+"the article is inside an event category."
+msgstr ""
+
+#: admin/class-crowdaa-sync-meta-box.php:169
+msgid "Start date :"
+msgstr ""
+
+#: admin/class-crowdaa-sync-meta-box.php:171
+msgid "Event start date & time"
+msgstr ""
+
+#: admin/class-crowdaa-sync-meta-box.php:174
+msgid "End date :"
+msgstr ""
+
+#: admin/class-crowdaa-sync-meta-box.php:176
+msgid "Event end date & time"
+msgstr ""
+
+#: admin/class-crowdaa-sync-meta-box.php:284
+msgid ""
+"Check this box if you want to send a notification when the article is "
+"published or right now if it is already published."
+msgstr ""
+"Cochez cette case si vous voulez envoyer des notifications quand l'article "
+"est publié, ou instantanément si il n'est déjà."
+
+#: admin/class-crowdaa-sync-meta-box.php:292
+msgid "Send notification :"
+msgstr "Envoyer une notification :"
+
+#: admin/class-crowdaa-sync-meta-box.php:300
+msgid ""
+"Notification text (When both are not set, defaults to the article title & "
+"first characters) :"
+msgstr ""
+"Texte de la notification (Quand aucun des deux champs n'est défini, utilise "
+"le titre et le début du contenu) :"
+
+#: admin/class-crowdaa-sync-meta-box.php:303
+msgid "Notification title"
+msgstr "Titre de la notification"
+
+#: admin/class-crowdaa-sync-meta-box.php:305
+msgid "Notification content"
+msgstr "Contenu de la notification"
+
+#: admin/class-crowdaa-sync-meta-box.php:320
+msgid "Display options for the mobile view of this article."
+msgstr "Options d'affichage pour la vue mobile de l'article."
+
+#: admin/class-crowdaa-sync-meta-box.php:328
+msgid "Display the article as full screen :"
+msgstr "Afficher l'article en plein écran"
+
+#: admin/class-crowdaa-sync-rest-api.php:98
+msgid "Username field 'username' is required."
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:101
+msgid "Email field 'email' is required."
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:104
+msgid "Password field 'password' is required."
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:117
+msgid ""
+"Role field 'role' is not a permitted. Only 'contributor', 'subscriber' and "
+"your custom roles are allowed."
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:120
+msgid "Role field 'role' is not a valid. Check your User Roles from Dashboard."
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:135
+#: admin/class-crowdaa-sync-rest-api.php:161
+msgid "User '"
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:142
+msgid "Username already exists, please enter another username"
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:144
+msgid "Email already exists, please try 'Reset Password'"
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:157
+msgid "The field 'user_email' is required."
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:176
+msgid "Reset Password link has been sent to your email."
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:178
+msgid ""
+"Failed to send Reset Password email. Check your WordPress Hosting Email "
+"Settings."
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:191
+msgid "Token is invalid or not found."
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:313
+#, php-format
+msgid "Nous vous confirmons la création du compte %s sur le site %s."
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:314
+#, php-format
+msgid "[%s] confirmation de la création du compte"
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:327
+msgid ""
+"Failed to generate a password reset key. Check the WordPress Hosting Email "
+"Settings."
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:341
+#, php-format
+msgid ""
+"Une demande de réinitialisation du mot de passe a été effectuée pour le "
+"compte: %s"
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:342
+msgid ""
+"Si vous n'êtes pas à l'origine de cette demande, vous pouvez ignorer cet "
+"email."
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:343
+#, php-format
+msgid ""
+"Pour réinitialiser votre mot de passe, rendez-vous à l'adresse suivante: %s"
+msgstr ""
+
+#: admin/class-crowdaa-sync-rest-api.php:345
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Réinitialisation du mot de passe"
+
+#: admin/class-crowdaa-sync-wp-hooks.php:78
+#: admin/class-crowdaa-sync-wp-hooks.php:95
+msgid "Event category"
+msgstr ""
+
+#: admin/class-crowdaa-sync-wp-hooks.php:83
+#: admin/class-crowdaa-sync-wp-hooks.php:101
+msgid ""
+"Whether this category contain events (posts with a custom start and end "
+"dates)"
+msgstr ""
+
+#: admin/class-crowdaa-sync-wp-hooks.php:152
+msgid ""
+"Crowdaa-Sync: You will not be able to synchronize this post until you add a "
+"Sync category"
+msgstr ""
+"Crowdaa-Sync: Vous ne pourrez pas synchroniser ce post jusqu'à ce que vous "
+"ayez ajouté une catégorie à synchroniser"
+
+#: admin/partials/crowdaa-sync-admin-display.php:24
+#: admin/partials/crowdaa-sync-admin-display.php:111
+msgid "Connect to Crowdaa"
+msgstr "Se connecter à Crowdaa"
+
+#: admin/partials/crowdaa-sync-admin-display.php:39
+msgid "US platform"
+msgstr "Plateforme US"
+
+#: admin/partials/crowdaa-sync-admin-display.php:40
+msgid "FR platform"
+msgstr "Plateforme FR"
+
+#: admin/partials/crowdaa-sync-admin-display.php:51
+msgid "API URL"
+msgstr "URL de l'API"
+
+#: admin/partials/crowdaa-sync-admin-display.php:62
+msgid "App ID"
+msgstr "ID d'application"
+
+#: admin/partials/crowdaa-sync-admin-display.php:66
+msgid "Email"
+msgstr "Email"
+
+#: admin/partials/crowdaa-sync-admin-display.php:70
+msgid "Password"
+msgstr "Mot de passe"
+
+#: admin/partials/crowdaa-sync-admin-display.php:84
+msgid "Domain names"
+msgstr "Noms de domaines"
+
+#: admin/partials/crowdaa-sync-admin-display.php:89
+msgid ""
+"Comma-separated domain names list for your website, like example.com, www."
+"example.com, other.subdomain.example.com"
+msgstr ""
+"Liste des domaines de votre site, séparés par des virgules, exemple : "
+"example.com, www.example.com, other.subdomain.example.com"
+
+#: admin/partials/crowdaa-sync-admin-display.php:95
+msgid "Plugin API Key"
+msgstr "Clé d'API du plugin"
+
+#: admin/partials/crowdaa-sync-admin-display.php:106
+msgid "Disconnect from Crowdaa"
+msgstr "Se déconnecter de Crowdaa"
+
+#: admin/partials/crowdaa-sync-admin-display.php:119
+msgid "DO YOU REALLY WANT TO RESET THE DATABASE?"
+msgstr "VOULEZ-VOUS VRAIMENT RÉINITIALISER LA CONFIGURATION?"
+
+#: admin/partials/crowdaa-sync-admin-display.php:120
+msgid ""
+"This action will erase all synchronization data. If you want to run a "
+"synchronization again after this step, you will either have to :"
+msgstr ""
+"Cette action va effacer toute donnée de synchronisation. Si vous voulez "
+"lancer une nouvelle synchronisation après cette étape, vous devrez soit :"
+
+#: admin/partials/crowdaa-sync-admin-display.php:122
+msgid "Change the targeted Crowdaa application"
+msgstr "Utiliser une autre application Crowdaa"
+
+#: admin/partials/crowdaa-sync-admin-display.php:123
+msgid "Erase the Crowdaa app content (categories, badges and articles)"
+msgstr ""
+"Effacer le contenu de l'application Crowdaa précédente (Catégories, badges "
+"et articles)"
+
+#: admin/partials/crowdaa-sync-admin-display.php:124
+msgid "Erase the Wordpress content (categories, permissions and articles)"
+msgstr "Effacer le contenu sur Wordpress (Catégories, permissions et articles)"
+
+#: admin/partials/crowdaa-sync-admin-display.php:127
+msgid "This will also disable automatic synchronization."
+msgstr "Cela désactivera aussi la synchronisation automatique."
+
+#: admin/partials/crowdaa-sync-admin-display.php:131
+msgid "Cancel"
+msgstr "Annuler"
+
+#: admin/partials/crowdaa-sync-admin-display.php:135
+#: admin/partials/crowdaa-sync-admin-display.php:142
+msgid "RESET SYNC DATABASE"
+msgstr "RÉINITIALISATION DE LA SYNCHRO"
+
+#: admin/partials/crowdaa-sync-admin-display.php:151
+msgid "Enable/disable the synchronization"
+msgstr "Activer/désactiver la synchronisation"
+
+#: admin/partials/crowdaa-sync-admin-display.php:161
+msgid "Periodic synchronization enabled"
+msgstr "Synchronisation périodique activée"
+
+#: admin/partials/crowdaa-sync-admin-display.php:166
+msgid "Synchronize WordPress content to API"
+msgstr "Synchroniser de WordPress à Crowdaa"
+
+#: admin/partials/crowdaa-sync-admin-display.php:171
+msgid "Synchronize API content to WordPress"
+msgstr "Synchroniser de Crowdaa à WordPress"
+
+#: admin/partials/crowdaa-sync-admin-display.php:176
+msgid "Enable WP register from app"
+msgstr "Activer les inscriptions Wordpress depuis l'application"
+
+#: admin/partials/crowdaa-sync-admin-display.php:182
+msgid "Maximum synchronization duration (minutes)"
+msgstr "Durée maximale de synchronisation (en minutes)"
+
+#: admin/partials/crowdaa-sync-admin-display.php:187
+msgid "Permissions plugin"
+msgstr "Plugin de permissions utilisé"
+
+#: admin/partials/crowdaa-sync-admin-display.php:206
+msgid "Add default picture to the Gallery"
+msgstr "Ajouter une image par défaut"
+
+#: admin/partials/crowdaa-sync-admin-display.php:231
+msgid "Set categories to synchronize"
+msgstr "Définir les catégories à synchroniser"
+
+#: admin/partials/crowdaa-sync-admin-display.php:238
+msgid "Categories sync mode"
+msgstr "Mode de synchronisation des catégories"
+
+#: admin/partials/crowdaa-sync-admin-display.php:249
+msgid "Select below the categories that you *want* to synchronize to the app."
+msgstr ""
+"Listez ci-dessous les catégories que vous *voulez* synchroniser avec l'app."
+
+#: admin/partials/crowdaa-sync-admin-display.php:252
+msgid ""
+"Select below the categories that you *do not want* to synchronize to the app."
+msgstr ""
+"Listez ci-dessous les catégories que vous *ne voulez pas* synchroniser avec "
+"l'app."
+
+#: admin/partials/crowdaa-sync-admin-display.php:255
+#: admin/partials/crowdaa-sync-admin-display.php:298
+msgid "Use the Ctrl or Shift keys to select multiple categories."
+msgstr ""
+"Utilisez les touches Contrôle ou Majuscule pour sélectionner plusieurs "
+"catégories."
+
+#: admin/partials/crowdaa-sync-admin-display.php:265
+#: admin/partials/crowdaa-sync-admin-display.php:313
+msgid "---"
+msgstr ""
+
+#: admin/partials/crowdaa-sync-admin-display.php:269
+#: admin/partials/crowdaa-sync-admin-display.php:317
+msgid " ("
+msgstr ""
+
+#: admin/partials/crowdaa-sync-admin-display.php:285
+msgid "Set feed (front-page) categories"
+msgstr "Définit les catégories de la page principale de l'app"
+
+#: admin/partials/crowdaa-sync-admin-display.php:291
+msgid "Set all categories to be displayed on the app feed"
+msgstr "Laisser toutes les catégories s'afficher sur le feed"
+
+#: admin/partials/crowdaa-sync-admin-display.php:297
+msgid "Select below the categories that you want to see on the feed page."
+msgstr ""
+"Sélectionnez ci-dessous les catégories que vous voulez voir sur la page "
+"principale."
+
+#: admin/partials/crowdaa-sync-admin-display.php:334
+msgid "Synchronization"
+msgstr "Synchronisation"
+
+#: admin/partials/crowdaa-sync-admin-display.php:343
+msgid ""
+"Click on \"Get synchronization queue\" to see which changes will be "
+"synchronized."
+msgstr ""
+"Cliquez sur \"Voir la file d'attente\" pour voir quelles modifications "
+"seront effectuées à la prochaine synchronisation."
+
+#: admin/partials/crowdaa-sync-admin-display.php:344
+msgid ""
+"Click on \"Get last plugin logs\" to see the last 30 lines of the plugin "
+"logs."
+msgstr ""
+"Cliques sur \"Récupérer les derniers logs\" pour voir les derniers logs "
+"d'activité du plugin."
+
+#: admin/partials/crowdaa-sync-admin-display.php:345
+msgid ""
+"Click on \"Synchronize!\" button to sync posts between Wordpress and Crowdaa "
+"CMS."
+msgstr ""
+"Cliquez sur \"Synchroniser!\" pour lancer la synchronisation entre WordPress "
+"et Crowdaa."
+
+#: admin/partials/crowdaa-sync-admin-display.php:349
+msgid "Get synchronization queue"
+msgstr "Voir la file d'attente"
+
+#: admin/partials/crowdaa-sync-admin-display.php:350
+msgid "Get last plugin logs"
+msgstr "Récupérer les derniers logs"
+
+#: admin/partials/crowdaa-sync-admin-display.php:351
+msgid "Synchronize!"
+msgstr "Synchroniser!"
+
+#: includes/class-crowdaa-sync-lock.php:66
+msgid "Unable to create lock file"
+msgstr "Impossible de créer le fichier de verrouillage"
+
+#: includes/class-crowdaa-sync-timer.php:62
+msgid ""
+"Execution time limit. Please refresh the plugin settings page and click the "
+"sync button again"
+msgstr ""
+"Temps limite d'exécution dépassé. Merci d'actualiser cette page et de "
+"relancer la synchronisation."
+
+#: includes/class-crowdaa-sync.php:75
+msgid "Crowdaa Sync"
+msgstr "Crowdaa Sync"
+
+#~ msgid "Add API URL, please"
+#~ msgstr "Merci d'ajouter une URL d'API"
